@@ -80,7 +80,7 @@ a {
   border-radius: 4px;
 }
 
-.button-link-text {
+.button-link span {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -179,4 +179,59 @@ address a {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*styles for main section portfolio webpage*/
+
+.button-link-portfolio {
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding-left: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+}
+
+.button-link-portfolio span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.button-link-portfolio:hover,
+.button-link-portfolio:focus {
+  background: #2196f3;
+}
+
+.button-link-portfolio span:hover,
+.button-link-portfolio span:focus {
+  color: #ffffff;
+}
+
+.images-projects h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.images-projects p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
