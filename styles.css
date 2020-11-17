@@ -190,6 +190,7 @@ address a {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-right: 22px;
+  /*styles for text in button-link*/
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
