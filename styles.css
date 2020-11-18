@@ -7,19 +7,25 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: Roboto;
+}
+
+:root {
+  --colmain: #2196f3;
+  --colsec: #212121;
+}
 /* main styles*/
 .logo-web {
-  color: #2196f3;
-  font-family: Roboto;
-  font-style: normal;
+  color: var(--colmain);
+  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
 }
 .logo-studio {
-  color: #212121;
-  font-family: Roboto;
-  font-style: normal;
+  color: var(--colsec);
+  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -27,23 +33,23 @@ a {
 
 /*navigation in header*/
 .links-pages {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--colsec);
 }
 
 .links-pages:hover,
 .links-pages:focus {
-  color: #2196f3;
+  color: var(--colmain);
+}
+
+.links-pages.current {
+  color: var(--colmain);
 }
 
 .mail-telephone a {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -53,14 +59,12 @@ a {
 
 .mail-telephone a:hover,
 .mail-telephone a:focus {
-  color: #2196f3;
+  color: var(--colmain);
 }
 .hero {
   background-color: #2f303a;
 }
 .hero h1 {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -76,14 +80,12 @@ a {
   padding-right: 32px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background: #2196f3;
+  background: var(--colmain);
   border-radius: 4px;
 }
 
 .button-link span {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   align-items: center;
@@ -94,21 +96,16 @@ a {
 }
 
 .general-description h3 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--colsec);
 }
 
 .general-description p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -116,33 +113,26 @@ a {
   color: #757575;
 }
 .section-headers {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--colsec);
 }
 
 .employees h3 {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--colsec);
 }
 
 .employees p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -160,9 +150,6 @@ footer {
 }
 
 address p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
 
@@ -171,9 +158,6 @@ address p {
 }
 
 address a {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -183,7 +167,7 @@ address a {
 
 /*styles for main section portfolio webpage*/
 
-.button-link-portfolio {
+.button-link-portfolio button {
   background: #f5f4fa;
   border-radius: 4px;
   padding-left: 22px;
@@ -191,38 +175,32 @@ address a {
   padding-bottom: 6px;
   padding-right: 22px;
   /*styles for text in button-link*/
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
+  border: #f5f4fa;
 
-  color: #212121;
+  color: var(--colsec);
 }
 
-.button-link-portfolio:hover,
-.button-link-portfolio:focus {
-  background: #2196f3;
+.button-link-portfolio button:hover,
+.button-link-portfolio button:focus {
+  background: var(--colmain);
   color: #ffffff;
 }
 
 .images-projects h3 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--colsec);
 }
 
 .images-projects p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
