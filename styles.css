@@ -8,24 +8,27 @@ a {
 }
 
 body {
-  font-family: Roboto;
+  font-family: Roboto, Lato;
 }
 
 :root {
   --colmain: #2196f3;
   --colsec: #212121;
+  --colwhite: #ffffff;
+  --colgrey: #757575;
+  --colsubgrey: #f5f4fa;
 }
 /* main styles*/
 .logo-web {
   color: var(--colmain);
-  font-family: Raleway;
+  font-family: Raleway, Lato;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
 }
 .logo-studio {
   color: var(--colsec);
-  font-family: Raleway;
+  font-family: Raleway, Lato;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -54,7 +57,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--colgrey);
 }
 
 .mail-telephone a:hover,
@@ -72,7 +75,7 @@ body {
   text-transform: uppercase;
   text-align: center;
 
-  color: #ffffff;
+  color: var(--colwhite);
 }
 
 .button-link {
@@ -92,7 +95,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--colwhite);
 }
 
 .general-description h3 {
@@ -110,7 +113,11 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--colgrey);
+}
+
+.work-team {
+  background-color: var(--colsubgrey);
 }
 .section-headers {
   font-weight: 700;
@@ -138,7 +145,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--colgrey);
 }
 
 footer {
@@ -146,7 +153,7 @@ footer {
 }
 
 .logo-footer .logo-studio {
-  color: #ffffff;
+  color: var(--colwhite);
 }
 
 address p {
@@ -154,7 +161,7 @@ address p {
   line-height: 24px;
 
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--colwhite);
 }
 
 address a {
@@ -168,7 +175,7 @@ address a {
 /*styles for main section portfolio webpage*/
 
 .button-link-portfolio button {
-  background: #f5f4fa;
+  background: var(--colsubgrey);
   border-radius: 4px;
   padding-left: 22px;
   padding-top: 6px;
@@ -180,7 +187,7 @@ address a {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  border: #f5f4fa;
+  border: var(--colsubgrey);
 
   color: var(--colsec);
 }
@@ -188,7 +195,7 @@ address a {
 .button-link-portfolio button:hover,
 .button-link-portfolio button:focus {
   background: var(--colmain);
-  color: #ffffff;
+  color: var(--colwhite);
 }
 
 .images-projects h3 {
@@ -205,5 +212,5 @@ address a {
   line-height: 30px;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--colgrey);
 }
