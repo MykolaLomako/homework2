@@ -159,6 +159,7 @@ footer {
 address p {
   font-size: 14px;
   line-height: 24px;
+  font-style: normal;
 
   letter-spacing: 0.03em;
   color: var(--colwhite);
@@ -168,6 +169,7 @@ address a {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  font-style: normal;
 
   color: rgba(255, 255, 255, 0.6);
 }
