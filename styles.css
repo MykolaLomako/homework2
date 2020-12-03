@@ -8,7 +8,7 @@ a {
 }
 
 body {
-  font-family: Roboto, Lato;
+  font-family: Roboto, sans-serif;
 }
 
 :root {
@@ -21,14 +21,14 @@ body {
 /* main styles*/
 .logo-web {
   color: var(--colmain);
-  font-family: Raleway, Lato;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
 }
 .logo-studio {
   color: var(--colsec);
-  font-family: Raleway, Lato;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
